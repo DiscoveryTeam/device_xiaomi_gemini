@@ -122,12 +122,12 @@ PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/usb_audio_policy_configuration.xml:/system/etc/usb_audio_policy_configuration.xml
 
 # Browser
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     Gello
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap
+    SnapdragonCamera
 
 # Device config scripts
 PRODUCT_PACKAGES += \
@@ -149,7 +149,7 @@ PRODUCT_PACKAGES += \
     libcnefeatureconfig
 
 # ConfigPanel
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     ConfigPanel \
 
 # Display
@@ -165,13 +165,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/calib.cfg:system/etc/calib.cfg
 
 # Doze mode
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     XiaomiDoze
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    fingerprintd \
-    XiaomiPocketMode
+    fingerprintd
+#XiaomiPocketMode
 
 # For android_filesystem_config.h
 PRODUCT_PACKAGES += \
@@ -222,7 +222,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf
 
 # KeyHandler
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     com.cyanogenmod.keyhandler
 
 # Lights
