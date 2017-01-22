@@ -142,8 +142,8 @@ PRODUCT_PACKAGES += \
     libcnefeatureconfig
 
 # ConfigPanel
-#PRODUCT_PACKAGES += \
-    ConfigPanel \
+PRODUCT_PACKAGES += \
+    ConfigPanel
 
 # Display
 PRODUCT_PACKAGES += \
