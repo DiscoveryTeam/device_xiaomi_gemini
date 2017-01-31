@@ -8,3 +8,7 @@ persist.env.fastdorm.enabled=true
 
 # Radio
 persist.radio.add_power_save=1
+
+# Qualcomm BT aptXHD
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.bt.enableAptXHD=true
