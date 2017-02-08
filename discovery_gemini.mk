@@ -26,7 +26,7 @@ $(call inherit-product, device/xiaomi/gemini/device.mk)
 $(call inherit-product, vendor/discovery/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_gemini
+PRODUCT_NAME := discovery_gemini
 PRODUCT_DEVICE := gemini
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 5
