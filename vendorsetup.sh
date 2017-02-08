@@ -1,1 +1,1 @@
-add_lunch_combo aosp_gemini-userdebug
+add_lunch_combo discovery_gemini-userdebug
