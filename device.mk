@@ -122,6 +122,10 @@ PRODUCT_COPY_FILES += \
 #PRODUCT_PACKAGES += \
     Gello
 
+# Camera
+PRODUCT_PACKAGES += \
+    Camera2
+
 # Device config scripts
 PRODUCT_PACKAGES += \
     init.leds.sh \
@@ -158,7 +162,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/calib.cfg:system/etc/calib.cfg
 
 # Doze mode
-#PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
     XiaomiDoze
 
 # Fingerprint
