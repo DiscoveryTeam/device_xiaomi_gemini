@@ -124,6 +124,9 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
+	camera.msm8996 \
+    libqomx_core \
+    libmm-qcamera \
     Camera2
 
 # Device config scripts
