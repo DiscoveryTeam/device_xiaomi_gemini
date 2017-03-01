@@ -93,6 +93,7 @@ PRODUCT_PACKAGES += \
     audio.usb.default \
     libaudio-resampler \
     libaudioroute \
+    libbthost_if \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
@@ -127,7 +128,7 @@ PRODUCT_PACKAGES += \
 	camera.msm8996 \
     libqomx_core \
     libmm-qcamera \
-    Camera2
+    SnapdragonCamera
 
 # Device config scripts
 PRODUCT_PACKAGES += \
