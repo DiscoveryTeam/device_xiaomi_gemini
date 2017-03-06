@@ -166,13 +166,14 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/calib.cfg:system/etc/calib.cfg
 
 # Doze mode
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     XiaomiDoze
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    fingerprintd \
-	XiaomiPocketMode
+    fingerprintd
+
+#XiaomiPocketMode
 
 # For android_filesystem_config.h
 PRODUCT_PACKAGES += \
