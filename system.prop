@@ -2,3 +2,6 @@
 persist.qfp=false
 ro.hardware.fingerprint=fpc
 sys.fpc.tu.disabled=0
+
+# Force enable FastDormancy
+persist.env.fastdorm.enabled=true
