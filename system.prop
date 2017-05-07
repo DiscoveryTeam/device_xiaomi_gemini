@@ -5,3 +5,6 @@ sys.fpc.tu.disabled=0
 
 # Force enable FastDormancy
 persist.env.fastdorm.enabled=true
+
+# Radio
+persist.radio.add_power_save=1
